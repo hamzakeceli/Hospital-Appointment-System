@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE7D3BA8-6763-4755-86E2-0BF8D4C5CFBB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HospitalRecordingSystem.WinUI</RootNamespace>
+    <AssemblyName>HospitalRecordingSystem.WinUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Admin\FormAdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Admin\FormAdminPanel.designer.cs">
+      <DependentUpon>FormAdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DoctorForms\FormDoctorPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DoctorForms\FormDoctorPanel.designer.cs">
+      <DependentUpon>FormDoctorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DoctorForms\FormPatientRecipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DoctorForms\FormPatientRecipe.designer.cs">
+      <DependentUpon>FormPatientRecipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DoctorForms\FormPatientTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DoctorForms\FormPatientTest.designer.cs">
+      <DependentUpon>FormPatientTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login\FormSignInAndSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login\FormSignInAndSignUp.designer.cs">
+      <DependentUpon>FormSignInAndSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientForms\FormPatientPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientForms\FormPatientPanel.designer.cs">
+      <DependentUpon>FormPatientPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientForms\FormSessions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientForms\FormSessions.designer.cs">
+      <DependentUpon>FormSessions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PharmacistForms\FormPharmacistPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PharmacistForms\FormPharmacistPanel.designer.cs">
+      <DependentUpon>FormPharmacistPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PharmacistForms\FormPharmacistRecipeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PharmacistForms\FormPharmacistRecipeDetails.designer.cs">
+      <DependentUpon>FormPharmacistRecipeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Admin\FormAdminPanel.resx">
+      <DependentUpon>FormAdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DoctorForms\FormDoctorPanel.resx">
+      <DependentUpon>FormDoctorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DoctorForms\FormPatientRecipe.resx">
+      <DependentUpon>FormPatientRecipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DoctorForms\FormPatientTest.resx">
+      <DependentUpon>FormPatientTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login\FormSignInAndSignUp.resx">
+      <DependentUpon>FormSignInAndSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientForms\FormPatientPanel.resx">
+      <DependentUpon>FormPatientPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientForms\FormSessions.resx">
+      <DependentUpon>FormSessions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PharmacistForms\FormPharmacistPanel.resx">
+      <DependentUpon>FormPharmacistPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PharmacistForms\FormPharmacistRecipeDetails.resx">
+      <DependentUpon>FormPharmacistRecipeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HospitalRecordingSystem.BLL\HospitalRecordingSystem.BLL.csproj">
+      <Project>{103BDE88-B85E-470F-B135-807B924242D3}</Project>
+      <Name>HospitalRecordingSystem.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HospitalRecordingSystem.DAL\HospitalRecordingSystem.DAL.csproj">
+      <Project>{DCC94F0F-30F0-4B8F-9B6A-25F0FC5B3D7C}</Project>
+      <Name>HospitalRecordingSystem.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HospitalRecordingSystem.Entities\HospitalRecordingSystem.Entities.csproj">
+      <Project>{DEAD431F-BC9F-4F90-8B51-AFBF38FC0920}</Project>
+      <Name>HospitalRecordingSystem.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

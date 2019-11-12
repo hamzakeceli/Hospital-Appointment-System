@@ -1,0 +1,12 @@
+C:\Users\canan\source\repos\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\bin\Debug\HospitalRecordingSystem.Helpers.dll
+C:\Users\canan\source\repos\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\bin\Debug\HospitalRecordingSystem.Helpers.pdb
+C:\Users\canan\source\repos\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\obj\Debug\HospitalRecordingSystem.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\canan\source\repos\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\obj\Debug\HospitalRecordingSystem.Helpers.dll
+C:\Users\canan\source\repos\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\obj\Debug\HospitalRecordingSystem.Helpers.pdb
+C:\Users\MEHMET\Desktop\HospitalRecordingSystemV5\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\bin\Debug\HospitalRecordingSystem.Helpers.dll.config
+C:\Users\MEHMET\Desktop\HospitalRecordingSystemV5\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\bin\Debug\HospitalRecordingSystem.Helpers.dll
+C:\Users\MEHMET\Desktop\HospitalRecordingSystemV5\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\bin\Debug\HospitalRecordingSystem.Helpers.pdb
+C:\Users\MEHMET\Desktop\HospitalRecordingSystemV5\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\obj\Debug\HospitalRecordingSystem.Helpers.csprojAssemblyReference.cache
+C:\Users\MEHMET\Desktop\HospitalRecordingSystemV5\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\obj\Debug\HospitalRecordingSystem.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\MEHMET\Desktop\HospitalRecordingSystemV5\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\obj\Debug\HospitalRecordingSystem.Helpers.dll
+C:\Users\MEHMET\Desktop\HospitalRecordingSystemV5\HospitalRecordingSystem\HospitalRecordingSystem.Helpers\obj\Debug\HospitalRecordingSystem.Helpers.pdb
